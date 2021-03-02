@@ -20,7 +20,7 @@ input.onButtonPressed(Button.AB, function () {
                     speed += -20
                 }
             }
-            basic.pause(150)
+            basic.pause(100)
         }
         if (shoot.get(LedSpriteProperty.Y) <= 0) {
             shoot.delete()
